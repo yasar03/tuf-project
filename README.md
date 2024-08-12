@@ -4,7 +4,7 @@
 
 This project is a dynamic one-page website featuring a banner with a countdown timer. The website is built using React, Node.js, Express, and MySQL, and is fully deployed with the backend and database hosted on Render and the frontend on Vercel.
 
-![public/dashboard.png](#)
+![Project Banner](public/dashboard.png) <!-- Insert an image of the website here -->
 
 ## Table of Contents
 
