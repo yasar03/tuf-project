@@ -1,0 +1,24 @@
+/* Banner Styles */
+.banner {
+    background-color: #ffeb3b;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.banner p {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.banner a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.banner a:hover {
+    text-decoration: underline;
+}
