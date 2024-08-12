@@ -4,7 +4,7 @@
 
 This project is a dynamic one-page website featuring a banner with a countdown timer. The website is built using React, Node.js, Express, and MySQL, and is fully deployed with the backend and database hosted on Render and the frontend on Vercel.
 
-![Project Banner](public/dashboard.png) <!-- Insert an image of the website here -->
+![Project Banner](public/dashboard.png)
 
 ## Table of Contents
 
@@ -15,12 +15,11 @@ This project is a dynamic one-page website featuring a banner with a countdown t
 - [Usage](#usage)
 - [Screenshots](#screenshots)
 - [Demo Video](#demo-video)
-- [License](#license)
 - [Contact](#contact)
 
 ## Features
 
-- **Dynamic Banner:** A banner that can be controlled via a dashboard, including its visibility, description, countdown timer, and link.
+- **Dynamic Banner:** A banner that can be controlled via a dashboard, description, countdown timer, and clickable link.
 - **Countdown Timer:** A timer that counts down and displays a message when the time is up.
 - **Dashboard:** An admin dashboard to update the banner details in real-time.
 
@@ -35,8 +34,8 @@ This project is a dynamic one-page website featuring a banner with a countdown t
 
 The backend and database are deployed on [Render](https://render.com) and the frontend on [Vercel](https://vercel.com).
 
-- **Backend URL:** [Backend on Render](https://tuf-backend-cd7i.onrender.com)
-- **Frontend URL:** [Frontend on Vercel](https://your-vercel-url.vercel.app) <!-- Replace with your actual Vercel URL -->
+- **Backend URL:** [Backend on Render](https://tuf-backend-cd7i.onrender.com/api/banner)
+- **Frontend URL:** [Frontend on Vercel](https://tuf-project-six.vercel.app/) 
 
 ## Installation
 
@@ -45,7 +44,7 @@ To set up the project locally, follow these steps:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/dynamic-banner-website.git
+   git clone https://github.com/yasar03/tuf-project.git
    ```
 
 2. **Install dependencies for the backend:**
@@ -93,22 +92,19 @@ Once the project is up and running, you can use the dashboard to update the bann
 
 ## Screenshots
 
-![Dashboard](#) <!-- Insert a screenshot of the dashboard here -->
-![Banner](#) <!-- Insert a screenshot of the banner here -->
+![Dashboard](public/ss1.png) <!-- Insert a screenshot of the dashboard here -->
+![Banner](public/ss2.png) <!-- Insert a screenshot of the banner here -->
 
 ## Demo Video
 
-[![Watch the video](#)](#) <!-- Insert a video link here -->
+[![Watch the video](public/ss1.png)](https://youtu.be/ZIDGGPPHZhs)
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Contact
 
 For any inquiries or feedback, feel free to reach out:
 
-- **Email:** your-email@example.com
-- **LinkedIn:** [Your LinkedIn Profile](https://www.linkedin.com/in/your-profile/)
+- **Email:** yasarbains7@gmail.com
+- **LinkedIn:** [Your LinkedIn Profile](http://linkedin.com/in/yasar03)
 
 ---
