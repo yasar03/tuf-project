@@ -1,70 +1,114 @@
-# Getting Started with Create React App
+---
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Dynamic Banner Website
 
-## Available Scripts
+This project is a dynamic one-page website featuring a banner with a countdown timer. The website is built using React, Node.js, Express, and MySQL, and is fully deployed with the backend and database hosted on Render and the frontend on Vercel.
 
-In the project directory, you can run:
+![public/dashboard.png](#)
 
-### `npm start`
+## Table of Contents
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Deployment](#deployment)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Screenshots](#screenshots)
+- [Demo Video](#demo-video)
+- [License](#license)
+- [Contact](#contact)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
 
-### `npm test`
+- **Dynamic Banner:** A banner that can be controlled via a dashboard, including its visibility, description, countdown timer, and link.
+- **Countdown Timer:** A timer that counts down and displays a message when the time is up.
+- **Dashboard:** An admin dashboard to update the banner details in real-time.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Tech Stack
 
-### `npm run build`
+- **Frontend:** React, CSS Modules
+- **Backend:** Node.js, Express
+- **Database:** MySQL
+- **Deployment:** Render (Backend & Database), Vercel (Frontend)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Deployment
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The backend and database are deployed on [Render](https://render.com) and the frontend on [Vercel](https://vercel.com).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Backend URL:** [Backend on Render](https://tuf-backend-cd7i.onrender.com)
+- **Frontend URL:** [Frontend on Vercel](https://your-vercel-url.vercel.app) <!-- Replace with your actual Vercel URL -->
 
-### `npm run eject`
+## Installation
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+To set up the project locally, follow these steps:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. **Clone the repository:**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   ```bash
+   git clone https://github.com/your-username/dynamic-banner-website.git
+   ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2. **Install dependencies for the backend:**
 
-## Learn More
+   ```bash
+   cd backend
+   npm install
+   ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+3. **Install dependencies for the frontend:**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+   ```bash
+   cd ../frontend
+   npm install
+   ```
 
-### Code Splitting
+4. **Set up environment variables:**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+   Create a `.env` file in the `backend` directory and add the following:
 
-### Analyzing the Bundle Size
+   ```plaintext
+   DB_HOST=your-database-host
+   DB_USER=your-database-username
+   DB_PASSWORD=your-database-password
+   DB_NAME=your-database-name
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+5. **Run the backend server:**
 
-### Making a Progressive Web App
+   ```bash
+   cd backend
+   npm start
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+6. **Run the frontend:**
 
-### Advanced Configuration
+   ```bash
+   cd ../frontend
+   npm start
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Usage
 
-### Deployment
+Once the project is up and running, you can use the dashboard to update the banner details. The banner will automatically reflect these changes and display a countdown timer based on the time set.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Screenshots
 
-### `npm run build` fails to minify
+![Dashboard](#) <!-- Insert a screenshot of the dashboard here -->
+![Banner](#) <!-- Insert a screenshot of the banner here -->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Demo Video
+
+[![Watch the video](#)](#) <!-- Insert a video link here -->
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+For any inquiries or feedback, feel free to reach out:
+
+- **Email:** your-email@example.com
+- **LinkedIn:** [Your LinkedIn Profile](https://www.linkedin.com/in/your-profile/)
+
+---
